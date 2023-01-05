@@ -1,9 +1,7 @@
+import React from 'react';
+
 import './App.css';
 
-function App() {
-  return (
-   <h1>Lista</h1>
-  );
-}
+const App = () => <h1 className="title">Lista</h1>
 
 export default App;
